@@ -14,6 +14,7 @@ data2 = {'Name': ['Hassan', 'Mubashir', 'Jamshid', 'Zeeshan', 'Qaisar'], 'GPA': 
 frame1 = pd.DataFrame(data1)
 frame2 = pd.DataFrame(data2)
 
+print(pd.merge(frame1, frame2)) #No extra data will be picked
 print(pd.merge(frame1, frame2, how='left')) #Only data from left frame will be picked
 print(pd.merge(frame1, frame2, how='right')) #Only data from the right frame will be picked
 print(pd.merge(frame1, frame2, how='outer')) #Data from both the frames will be picked
