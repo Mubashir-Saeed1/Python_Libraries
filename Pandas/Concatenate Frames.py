@@ -10,4 +10,4 @@ data2 = {
 frame1 = pd.DataFrame(data1)
 frame2 = pd.DataFrame(data2)
 
-print(concat([frame1, frame2], axis= 0))
+print(concat([frame1, frame2], axis=0))

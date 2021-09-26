@@ -9,4 +9,4 @@ data2 = {
 frame1 = pd.DataFrame(data1)
 frame2 = pd.DataFrame(data2)
 
-print(frame1.join(frame2, lsuffix='f1', rsuffix='f2'))
+print(frame1.join(frame2, lsuffix="f1", rsuffix="f2"))
